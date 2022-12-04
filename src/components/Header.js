@@ -5,7 +5,7 @@ const Header = () => {
         <div>
             <header className="w3-container w3-center w3-padding-32">
                 <h1><b>MY BLOG</b></h1>
-                <p>Welcome to the blog of <span className="w3-tag">Aizada❤</span></p>
+                <p>Welcome to the blog of <span className="w3-tag">Aizada ❤</span></p>
             </header>
         </div>
     );
