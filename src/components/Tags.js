@@ -1,5 +1,3 @@
-// Отрефакторь этот компонент чтобы он принимал массив из тегов и отображал их на экране
-
 function Tags({ tags }) {
     return (
         <div className="w3-card w3-margin">
