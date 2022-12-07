@@ -4,6 +4,23 @@ import PopularPosts from "./PopularPosts";
 import Tags from './Tags';
 import Post from './Post';
 
+const tags = [
+    'Travel',
+    'York',
+    'London',
+    'IKEA',
+    'NORWAY',
+    'DIY',
+    'Ideas',
+    'Baby',
+    'Family',
+    'News',
+    'Clothing',
+    'Shopping',
+    'Sports',
+    'Games',
+];
+
 const Main = () => {
     return (
         <div className="w3-row">
@@ -28,7 +45,7 @@ const Main = () => {
             <div className="w3-col l4">
                 <About />
                 <PopularPosts />
-                <Tags />
+                <Tags tags={tags} />
             </div>
         </div>
     );
